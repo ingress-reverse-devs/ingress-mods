@@ -1,0 +1,353 @@
+diff -u -r -N clean/assets/common/data/nemesis.json comm/assets/common/data/nemesis.json
+--- clean/assets/common/data/nemesis.json	2013-09-16 11:33:40.348866879 +0200
++++ comm/assets/common/data/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+diff -u -r -N clean/assets/common/data-hvga/nemesis.json comm/assets/common/data-hvga/nemesis.json
+--- clean/assets/common/data-hvga/nemesis.json	2013-09-16 11:33:40.355533504 +0200
++++ comm/assets/common/data-hvga/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 75.0,
+-      width: 75.0,
+-      x: 0.0,
+-      y: 141.0
++      height: 125.0,
++      width: 125.0,
++      x: 1.0,
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N clean/assets/common/data-ingressopt-hvga/nemesis.json comm/assets/common/data-ingressopt-hvga/nemesis.json
+--- clean/assets/common/data-ingressopt-hvga/nemesis.json	2013-09-16 11:33:40.358866817 +0200
++++ comm/assets/common/data-ingressopt-hvga/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 60.0,
+-      width: 60.0,
++      height: 125.0,
++      width: 125.0,
+       x: 1.0,
+-      y: 150.0
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N clean/assets/common/data-ingressopt-qvga/nemesis.json comm/assets/common/data-ingressopt-qvga/nemesis.json
+--- clean/assets/common/data-ingressopt-qvga/nemesis.json	2013-09-16 11:33:40.358866817 +0200
++++ comm/assets/common/data-ingressopt-qvga/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 60.0,
+-      width: 60.0,
++      height: 125.0,
++      width: 125.0,
+       x: 1.0,
+-      y: 126.0
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N clean/assets/common/data-qvga/nemesis.json comm/assets/common/data-qvga/nemesis.json
+--- clean/assets/common/data-qvga/nemesis.json	2013-09-16 11:33:40.368866755 +0200
++++ comm/assets/common/data-qvga/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 50.0,
+-      width: 50.0,
+-      x: 0.0,
+-      y: 94.0
++      height: 125.0,
++      width: 125.0,
++      x: 1.0,
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N clean/assets/common/data-xhdpi/nemesis.json comm/assets/common/data-xhdpi/nemesis.json
+--- clean/assets/common/data-xhdpi/nemesis.json	2013-09-16 11:33:40.368866755 +0200
++++ comm/assets/common/data-xhdpi/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+diff -u -r -N clean/assets/common/data-xxhdpi/nemesis.json comm/assets/common/data-xxhdpi/nemesis.json
+--- clean/assets/common/data-xxhdpi/nemesis.json	2013-09-16 11:33:40.372200067 +0200
++++ comm/assets/common/data-xxhdpi/nemesis.json	2013-09-16 12:57:15.964003690 +0200
+@@ -52,7 +52,7 @@
+       a: 1,
+       b: 1,
+       g: 1,
+-      r: 0.57
++      r: 0.80
+     },
+     buttonblue-muted: {
+       a: 1,
+@@ -380,9 +380,9 @@
+     },
+     white: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 1
++      b: 0.6,
++      g: 0.6,
++      r: 0.6
+     },
+     xm-high: {
+       a: 1,
+@@ -440,9 +440,9 @@
+     },
+     tab-blue: {
+       a: 1,
+-      b: 1,
+-      g: 1,
+-      r: 0.57
++      b: 0,
++      g: 0,
++      r: 1
+     },
+     primary-info: {
+       a: 1,
+diff -u -r -N clean/res/values/colors.xml comm/res/values/colors.xml
+--- clean/res/values/colors.xml	2013-09-16 11:33:40.218867689 +0200
++++ comm/res/values/colors.xml	2013-09-16 12:51:00.982058277 +0200
+@@ -11,7 +11,7 @@
+     <color name="common_signin_btn_default_background">#ffdd4b39</color>
+     <color name="common_action_bar_splitter">#ffd2d2d2</color>
+     <color name="background">#ff13303f</color>
+-    <color name="foreground">#ff2deff9</color>
++    <color name="foreground">#808080</color>
+     <color name="foreground_disabled">#ff0b6062</color>
+     <color name="comm_text_date">#ffa0a0a0</color>
+     <color name="comm_text_date_light">#ffffffff</color>
+@@ -30,13 +30,13 @@
+     <color name="comm_preview_background">#8813303f</color>
+     <color name="comm_nudge_background">#ff724510</color>
+     <color name="comm_urgent_message_background">#ff631f1f</color>
+-    <color name="comm_tab_default">#ff4d94aa</color>
+-    <color name="comm_tab_pressed">#ffb3ffff</color>
++    <color name="comm_tab_default">#89A4AC</color>
++    <color name="comm_tab_pressed">#808080</color>
+     <color name="comm_tab_selected">#ff2deff9</color>
+     <color name="modern_yellow">#ffffd652</color>
+     <color name="modern_yellow_disabled">#ff504e2e</color>
+     <color name="modern_dark_yellow">#ff9b8c54</color>
+-    <color name="cyan">#ff00f3ff</color>
++    <color name="cyan">#808080</color>
+     <color name="subtle_divider">#ff005454</color>
+     <color name="passcode_status_success">#ff2deff9</color>
+     <color name="passcode_status_fail">#ffff4e38</color>
