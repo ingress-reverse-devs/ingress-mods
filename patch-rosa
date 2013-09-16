@@ -1,0 +1,308 @@
+diff -u -r -N out-dir/assets/common/data/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data/nemesis.json
+--- out-dir/assets/common/data/nemesis.json	2013-09-16 11:04:34.260607871 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data/nemesis.json	2013-09-16 10:57:48.266676103 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+diff -u -r -N out-dir/assets/common/data-hvga/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-hvga/nemesis.json
+--- out-dir/assets/common/data-hvga/nemesis.json	2013-09-16 11:04:34.263941182 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-hvga/nemesis.json	2013-09-16 10:57:48.256676169 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 75.0,
+-      width: 75.0,
+-      x: 0.0,
+-      y: 141.0
++      height: 125.0,
++      width: 125.0,
++      x: 1.0,
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N out-dir/assets/common/data-ingressopt-hvga/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-ingressopt-hvga/nemesis.json
+--- out-dir/assets/common/data-ingressopt-hvga/nemesis.json	2013-09-16 11:04:34.267274493 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-ingressopt-hvga/nemesis.json	2013-09-16 10:57:48.260009481 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 60.0,
+-      width: 60.0,
++      height: 125.0,
++      width: 125.0,
+       x: 1.0,
+-      y: 150.0
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N out-dir/assets/common/data-ingressopt-qvga/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-ingressopt-qvga/nemesis.json
+--- out-dir/assets/common/data-ingressopt-qvga/nemesis.json	2013-09-16 11:04:34.267274493 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-ingressopt-qvga/nemesis.json	2013-09-16 10:57:48.250009547 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 60.0,
+-      width: 60.0,
++      height: 125.0,
++      width: 125.0,
+       x: 1.0,
+-      y: 126.0
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N out-dir/assets/common/data-qvga/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-qvga/nemesis.json
+--- out-dir/assets/common/data-qvga/nemesis.json	2013-09-16 11:04:34.270607804 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-qvga/nemesis.json	2013-09-16 10:57:48.246676236 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+@@ -520,10 +520,10 @@
+   },
+   com.badlogic.gdx.math.Rectangle: {
+     compass: {
+-      height: 50.0,
+-      width: 50.0,
+-      x: 0.0,
+-      y: 94.0
++      height: 125.0,
++      width: 125.0,
++      x: 1.0,
++      y: 235.0
+     }
+   },
+   com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+diff -u -r -N out-dir/assets/common/data-xhdpi/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-xhdpi/nemesis.json
+--- out-dir/assets/common/data-xhdpi/nemesis.json	2013-09-16 11:04:34.273941114 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-xhdpi/nemesis.json	2013-09-16 10:57:48.270009414 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+diff -u -r -N out-dir/assets/common/data-xxhdpi/nemesis.json ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-xxhdpi/nemesis.json
+--- out-dir/assets/common/data-xxhdpi/nemesis.json	2013-09-16 11:04:34.273941114 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/assets/common/data-xxhdpi/nemesis.json	2013-09-16 10:57:48.243342925 +0200
+@@ -362,21 +362,21 @@
+     },
+     resistance: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.76,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-edges: {
+       a: 1.0,
+-      b: 0.6,
+-      g: 0.48,
+-      r: 0.0
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     resistance-face: {
+       a: 1.0,
+-      b: 1.0,
+-      g: 0.901961,
+-      r: 0.505882
++      b: 0.615,
++      g: 0.321,
++      r: 1
+     },
+     white: {
+       a: 1,
+diff -u -r -N out-dir/res/values/colors.xml ingress-1.35.1-broot-1.0.2.11-mute/res/values/colors.xml
+--- out-dir/res/values/colors.xml	2013-09-16 11:04:34.013942876 +0200
++++ ingress-1.35.1-broot-1.0.2.11-mute/res/values/colors.xml	2013-09-16 10:57:48.483341321 +0200
+@@ -20,7 +20,7 @@
+     <color name="comm_text_honey_orange">#ffffd652</color>
+     <color name="comm_text_orange_bright">#ffd8ad4c</color>
+     <color name="comm_text_orange_dim">#ffa5823c</color>
+-    <color name="comm_text_blue_resistance">#ff009eff</color>
++    <color name="comm_text_blue_resistance">#FF00F3</color>
+     <color name="comm_text_green_aliens">#ff2bed1b</color>
+     <color name="comm_text_white">#ffcfe5e5</color>
+     <color name="comm_text_red">#ffff5555</color>
